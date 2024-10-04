@@ -1,6 +1,6 @@
 from tkinter import Tk, Entry, Button, StringVar
 
-class Calculator:
+class Calci:
     def __init__(self, master):
         master.title("Calculator")
         master.geometry('357x420+0+0')
@@ -46,5 +46,5 @@ class Calculator:
 
 
 root=Tk()
-calculator=Calculator(root)
+calculator=Calci(root)
 root.mainloop()
